@@ -1,0 +1,63 @@
+body {
+    background: url('https://i.pinimg.com/564x/7a/84/76/7a8476657d5f22ecc972acd2b39330e9.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    margin-inline: auto;
+    width: 80%;
+    position: relative;
+}
+
+#todo-list {
+    display: inline-block;
+    width: 100%;
+    padding: 1em;
+    border-radius: 10px;
+    /* outline: 3px solid black; */
+    background: rgba( 255, 255, 255, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#todo-list button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 1;
+    border-radius: 5px;
+    cursor: pointer;
+
+    font-size: 30px;
+}
+
+#md-input {
+    width: 100%;
+    font-size: 1.5em;
+}
+
+#main-input {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.CodeMirror, .CodeMirror-scroll {
+    min-height: min-content;
+    height: 150px;
+}
+
+.editor-toolbar, .editor-statusbar {
+    background-color: aliceblue;
+    opacity: 1;
+}
+
+
+.CodeMirror-scroll {
+    overflow: scroll;
+}

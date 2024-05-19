@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/zero-md@3?register"
+    ></script>
+    <link rel="stylesheet" href="https://md-editor.hau.xyz/dist/md-editor.min.css">
+    <script src="https://md-editor.hau.xyz/dist/md-editor.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
     <title>WOLFODOT</title>
-</head>
-<body>
-    <h1>WOLFODOT</h1>
-</body>
+  </head>
+  <body>
+    <!-- <header>
+        <h1>WOLFODOT</h1>
+    </header> -->
+    <main>
+      <container id="todo-list">
+        <button>✏️</button>
+        <div id="md-preview"></div>
+      </container>
+    </main>
+    <footer></footer>
+    <container id="main-input">
+      <textarea type="text" id="md-input"></textarea>
+    </container>
+    <script src="main.js"></script>
+  </body>
 </html>
